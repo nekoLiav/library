@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liav's Library</title>
+  <link rel="stylesheet" href="styles.css">
+  <body>
+    <h1>Liav's Library</h1>
+    <button id="addbookbtn">Add Book</button>
+    <div class="tablecontainer">
+      <table id="booklist">
+        <tr>
+          <th>Book Title</th>
+          <th>Book Author</th>
+          <th class="readthing">Read</th>
+        </tr>
+    </div>
+      <div id="modal">
+        <div class="modal-content">
+          <span id="modalclose">&times;</span>
+          <form id="submitform">
+            <label for="booktitle">Book Title:</label><br>
+            <input type="text" id="booktitle" name="booktitle"><br>
+            <label for="bookauthor">Book Author:</label><br>
+            <input type="text" id="bookauthor" name="bookauthor"><br>
+            <div class="radiowrapper">
+              <label for="bookauthor">Have you read this book?</label><br>
+              <label for="readstatusyes">Yes</label>
+              <input id="yesbutton" type="radio" name="readstatus" required><br>
+              <label for="readstatusno">No</label>
+              <input id="nobutton" type="radio" name="readstatus" required><br>
+            </div>
+              <button id="submitbutton" type="button" value="send">Submit</button>
+            </div>
+          </form>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</head>
+</html>
