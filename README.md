@@ -1,4 +1,4 @@
-# odin-library
+# Library
 
 The objective of this project was to learn how to use object constructors, as well as a solid dose of DOM manipulation to get the form input to the page. 
 
